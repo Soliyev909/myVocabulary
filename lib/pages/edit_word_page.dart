@@ -15,7 +15,7 @@ class EditWord{
       });
     }
 
-    print('${Vocabulary.words.length}. Back');
+    print('${Vocabulary.words.length+1}. Back');
 
     int command = io.number;
 
