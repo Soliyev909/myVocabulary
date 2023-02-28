@@ -5,3 +5,4 @@ import 'package:my_vocabulary/pages/intro_page.dart';
 void main() {
   IntroPage();
 }
+

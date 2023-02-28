@@ -17,7 +17,8 @@ class IntroPage{
 
     print('\n\n1. Create new dictionary');
     print('2. Edit dictionary');
-    print('3. Exit');
+    print('3. Shuffle');
+    print('4. Exit');
 
     int command = io.number;
 
@@ -29,6 +30,10 @@ class IntroPage{
         EditWord();
       } break;
       case 3:{
+        Vocabulary.words.shuffle();
+        introPage();
+      } break;
+      case 4:{
         return;
       }
       default:{
