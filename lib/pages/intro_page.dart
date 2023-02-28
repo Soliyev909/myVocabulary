@@ -1,8 +1,8 @@
 import 'package:my_vocabulary/model/vocabulary.dart';
 import 'package:my_vocabulary/pages/create_new_word.dart';
 import 'package:my_vocabulary/servises/io_servises.dart';
-
 import 'edit_word_page.dart';
+
 class IntroPage{
   IntroPage(){introPage();}
 
