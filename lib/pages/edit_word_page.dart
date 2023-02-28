@@ -2,6 +2,7 @@ import 'package:my_vocabulary/model/vocabulary.dart';
 
 import '../servises/edit_word_service.dart';
 import '../servises/io_servises.dart';
+import 'intro_page.dart';
 
 class EditWord{
   EditWord(){editPage();}
@@ -19,8 +20,11 @@ class EditWord{
 
     int command = io.number;
 
-    if(command > 0){
+    if(command > 0  && command !=3){
       editWord(Vocabulary.words[command-1]);
+    }
+    else{
+      IntroPage();
     }
   }
 

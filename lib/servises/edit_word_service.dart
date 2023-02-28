@@ -16,7 +16,7 @@ editWord(Word word) {
     String newValue = word.word.values.toString();
     word.word.clear();
     String newWord = io.text;
-
+    newValue = newValue.substring(1,newValue.length-1);
     Map<String, String> map = {newWord: newValue};
     word.word.addAll(map);
     print(word);
