@@ -1,25 +1,25 @@
 <component name="libraryTable">
   <library name="Dart SDK">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/async" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/cli" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/collection" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/convert" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/core" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/developer" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/ffi" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/html" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/indexed_db" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/io" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/isolate" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/js" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/js_util" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/math" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/mirrors" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/svg" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/typed_data" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/web_audio" />
-      <root url="file://$PROJECT_DIR$/../Development/Dart/lib/web_gl" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/async" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/cli" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/collection" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/convert" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/core" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/developer" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/ffi" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/html" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/indexed_db" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/io" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/isolate" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/js" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/js_util" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/math" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/mirrors" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/svg" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/typed_data" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/web_audio" />
+      <root url="file://$USER_HOME$/Downloads/dartsdk-linux-x64-release/dart-sdk/lib/web_gl" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
