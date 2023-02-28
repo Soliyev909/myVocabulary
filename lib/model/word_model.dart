@@ -1,6 +1,6 @@
 class Word{
   int id;
-  Map<String, Stream> word;
+  Map<String, String> word;
 
   Word(this.id,this.word);
 }
