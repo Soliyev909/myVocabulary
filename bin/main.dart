@@ -3,6 +3,6 @@ import 'package:my_vocabulary/model/word_model.dart';
 import 'package:my_vocabulary/pages/intro_page.dart';
 
 void main() {
-  dictionary();
+  IntroPage();
 
 }
