@@ -14,6 +14,7 @@ editWord(Word word) {
   if (command == 1) {
     print('Add new word');
     String newValue = word.word.values.toString();
+    
     word.word.clear();
     String newWord = io.text;
     newValue = newValue.substring(1,newValue.length-1);
