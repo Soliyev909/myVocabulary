@@ -1,3 +1,5 @@
+
+
 import 'package:my_vocabulary/model/vocabulary.dart';
 import '../servises/edit_word_service.dart';
 import '../servises/io_servises.dart';
@@ -19,7 +21,7 @@ class EditWord{
 
     int command = io.number;
 
-    if(command > 0  && command !=3){
+    if(command > 0  && command<= Vocabulary.words.length){
       editWord(Vocabulary.words[command-1]);
     }
     else{

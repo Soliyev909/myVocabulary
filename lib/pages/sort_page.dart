@@ -15,7 +15,7 @@ class SortPage {
     print('4. Back');
     int count = 0;
     for (int i = 0; i < Vocabulary.words.length; ++i) {
-      if (Vocabulary.words[i].toString().contains('true')) {
+      if (Vocabulary.words[i].memorized) {
         count++;
       }
     }
@@ -30,16 +30,16 @@ class SortPage {
     } else if (command == 3) {
       List<Word> cash =
           Vocabulary.words.where((word) => word.memorized).toList();
-      int count = 1;
+      int n = 1;
       for (final item in cash) {
         item.word.forEach((key, value) {
-          print('$count. $key : $value');
+          print('$n. $key : $value');
         });
-        count++;
+        n++;
       }
 
-      int result = Vocabulary.words.length + 1 ~/ count;
-      print(result );
+      double result = 100 / Vocabulary.words.length;
+      print(result * count);
 
       print('1. Back');
       int command = io.number;
