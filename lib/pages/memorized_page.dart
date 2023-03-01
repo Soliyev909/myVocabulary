@@ -12,8 +12,6 @@ import '../servises/io_servises.dart';
     }else{
       memoryStr += 'not Memorized';
     }
-    print(memoryStr);
-
     print('Want to change?');
     print('\n1. Yes\n2. No');
 

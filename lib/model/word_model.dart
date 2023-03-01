@@ -9,7 +9,7 @@ class Word implements Comparable<Word> {
 
   @override
   String toString(){
-    return '$id $word';
+    return '$id $word $memorized';
   }
 
   @override
