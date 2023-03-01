@@ -14,11 +14,7 @@ class SortPage {
     print('3. Sort by Memorized');
     print('4. Back');
     int count = 0;
-    for (int i = 0; i < Vocabulary.words.length; ++i) {
-      if (Vocabulary.words[i].toString().contains('true')) {
-        count++;
-      }
-    }
+
     int command = io.number;
 
     if (command == 1) {
@@ -38,7 +34,13 @@ class SortPage {
         count++;
       }
 
-      int result = Vocabulary.words.length + 1 ~/ count;
+      ///%
+      double result = Vocabulary.words.length /100;
+      for (int i = 0; i < Vocabulary.words.length; ++i) {
+        if (Vocabulary.words[i].toString().contains('true')) {
+          count++;
+        }
+      }
       print(result );
 
       print('1. Back');

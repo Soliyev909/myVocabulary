@@ -19,7 +19,7 @@ class EditWord{
 
     int command = io.number;
 
-    if(command > 0  && command !=3){
+    if(command > 0  && command <= Vocabulary.words.length){
       editWord(Vocabulary.words[command-1]);
     }
     else{
