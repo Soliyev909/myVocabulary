@@ -1,8 +1,7 @@
 import 'package:my_vocabulary/model/vocabulary.dart';
 import 'package:my_vocabulary/model/word_model.dart';
 import 'package:my_vocabulary/pages/intro_page.dart';
-
-import '../servises/io_servises.dart';
+import 'package:my_vocabulary/servises/io_servises.dart';
 
 class NewWord{
   NewWord(){
@@ -10,13 +9,13 @@ class NewWord{
   }
 
   addWord(){
-      print('Please inter the new word that you want to add');
+      print('Please enter the new word that you want to add');
       String key = io.text;
 
-      print('inter the word that mean of the word');
+      print('Please enter the word that mean of the word');
       String value = io.text;
 
-      Word newWord = Word(Word.count++, {key : value});
+      Word newWord = Word(Word.count++, {key : value}, DateTime.now().toString());
       Vocabulary.words.add(newWord);
 
       for(final item in Vocabulary.words){

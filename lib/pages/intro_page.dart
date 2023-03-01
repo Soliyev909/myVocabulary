@@ -1,5 +1,6 @@
 import 'package:my_vocabulary/model/vocabulary.dart';
 import 'package:my_vocabulary/pages/create_new_word.dart';
+import 'package:my_vocabulary/pages/sort_page.dart';
 import 'package:my_vocabulary/servises/io_servises.dart';
 import 'edit_word_page.dart';
 
@@ -9,10 +10,13 @@ class IntroPage{
   void introPage(){
     print('\t--Welcome to My Vocabulary--');
 
-    for(final item in Vocabulary.words){
-      item.word.forEach((key,value) {
-        print('${item.id}. $key : $value');
-      });
+    // for(final item in Vocabulary.words){
+    //   item.word.forEach((key,value) {
+    //     print('${item.id}. $key : $value');
+    //   });
+    // }
+    for(int i = 0; i < Vocabulary.words.length; i++){
+      print('${i + 1}.${Vocabulary.words[i]}');
     }
 
     print('\n\n1. Create new dictionary');
@@ -30,8 +34,7 @@ class IntroPage{
         EditWord();
       } break;
       case 3:{
-        Vocabulary.words.shuffle();
-        introPage();
+        SortPage();
       } break;
       case 4:{
         return;
