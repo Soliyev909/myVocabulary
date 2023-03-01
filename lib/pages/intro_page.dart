@@ -10,13 +10,12 @@ class IntroPage{
   void introPage(){
     print('\t--Welcome to My Vocabulary--');
 
-    // for(final item in Vocabulary.words){
-    //   item.word.forEach((key,value) {
-    //     print('${item.id}. $key : $value');
-    //   });
-    // }
-    for(int i = 0; i < Vocabulary.words.length; i++){
-      print('${i + 1}.${Vocabulary.words[i]}');
+    int count = 1;
+    for(final item in Vocabulary.words){
+      item.word.forEach((key,value) {
+        print('$count. $key : $value');
+      });
+      count++;
     }
 
     print('\n\n1. Create new dictionary');
