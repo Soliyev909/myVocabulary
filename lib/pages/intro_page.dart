@@ -21,7 +21,7 @@ class IntroPage{
 
     print('\n\n1. Create new dictionary');
     print('2. Edit dictionary');
-    print('3. Shuffle');
+    print('3. Sort');
     print('4. Exit');
 
     int command = io.number;
